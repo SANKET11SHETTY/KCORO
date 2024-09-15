@@ -30,6 +30,16 @@
     max-width: 365px;
   }
 
+  .bg-grad{
+   
+    /* max-width: 375px; */
+  }
+
+  html,body{
+    max-width: 375px !important;
+overflow-x: hidden !important;
+  }
+
   button {
     padding: 5px 10px;
     font-size: 15px;
@@ -49,8 +59,11 @@
     right: 0;
     flex-direction: column;
     text-align: center;
-    gap: 26px;
+    gap: 32px;
     overflow: hidden !important;
+    justify-content: space-around;
+    margin-top: -20px;
+    border-radius: 20px;
   }
 
   .menu-icon {
@@ -248,14 +261,33 @@ left:10%;
       }
     }
 
+}
 
 
+@media (min-width: 601px) and (max-width: 1094px) {
+
+  .container {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  h1 {
+    font-size: 57px;
+  }
+
+  button {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
 
 
+  .hero-btn {
+    gap: 56px;
+    margin-top: 36px;
 
+    button {
+      width: 150px !important;
+    }
 
-
-
-
-
+}
 }
